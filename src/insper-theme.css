@@ -1,0 +1,86 @@
+/* @theme insper */
+
+@import 'default';
+
+section h1:first-of-type {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    font-family: 'Liberation Sans';
+    font-size: 44px;
+    color: #c00026;
+    line-height: normal;
+}
+
+section {
+    display: inline-block;
+    padding-top: 160px;
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+section.narrow {
+    line-height: normal;
+}
+
+section.wide {
+    line-height: 300%;
+}
+
+section.double {
+    column-count: 2;
+}
+
+section.first h1 {
+    position: absolute;
+    left: 0px;
+    top: 125px;
+    color: White;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 88px;
+    text-align: center;
+}
+
+section.first h2 {
+    position: absolute;
+    left: 0px;
+    top: 420px;
+    color: white;
+    width: 100%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+section.first h3 {
+    position: absolute;
+    left: 0px;
+    top: 530px;
+    color: white;
+    width: 100%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.first h4 {
+    position: absolute;
+    left: 0px;
+    right: 100px;
+    top: 620px;
+    color: white;
+    width: 95%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 24px;
+    text-align: right;
+}
+
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
