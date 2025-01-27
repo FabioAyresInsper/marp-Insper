@@ -24,9 +24,19 @@ math: mathjax
 
 ---
 
+<!-- _class: center -->
+
 # Figura
 
 ![center](../example/compiler.jpeg)
+
+---
+
+<!-- _class: question -->
+
+# Reflexão
+
+Pergunta de impacto?
 
 ---
 

@@ -26,6 +26,22 @@ section {
     font-size: 22px;
 }
 
+section.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+section.question {
+    text-align: center;
+    padding-top: 320px;
+    font-family: Inter;
+    font-size: 60px;
+}
+
 section.narrow {
     line-height: normal;
 }
