@@ -4,18 +4,25 @@
 
 section h1:first-of-type {
     position: absolute;
-    left: 50px;
-    top: 80px;
-    font-family: 'Liberation Sans';
-    font-size: 44px;
-    color: #c00026;
+    left: 130px;
+    top: 40px;
+    font-family: Inter;
+    font-size: 26px;
+    color: #595959;
     line-height: normal;
 }
 
 section {
     display: inline-block;
+    background-image: url(../example/slide.png);
+    background-size: cover;
+    /* Makes the image cover the entire slide */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
     padding-top: 160px;
-    font-family: Helvetica;
+    font-family: Inter;
     font-size: 22px;
 }
 
@@ -31,56 +38,57 @@ section.double {
     column-count: 2;
 }
 
+section.first {
+    background-image: url('../example/slide1-insper.png');
+    background-repeat: no-repeat;
+    background-position: 830px 96px;
+    background-size: 410px;
+}
+
 section.first h1 {
     position: absolute;
-    left: 0px;
-    top: 125px;
-    color: White;
-    font-family: Helvetica;
+    left: 88px;
+    top: 104px;
+    width: 681px;
+    height: 150px;
+    color: black;
+    font-family: Georgia;
     font-weight: bold;
-    font-size: 88px;
-    text-align: center;
+    font-size: 70px;
+    text-align: left;
 }
 
 section.first h2 {
     position: absolute;
-    left: 0px;
-    top: 420px;
-    color: white;
-    width: 100%;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
+    left: 88px;
+    top: 254px;
+    color: black;
+    width: 681px;
+    height: 214px;
+    font-family: Inter;
+    font-size: 38px;
+    text-align: left;
 }
 
 section.first h3 {
     position: absolute;
-    left: 0px;
-    top: 530px;
-    color: white;
+    left: 88px;
+    top: 560px;
+    color: black;
     width: 100%;
-    font-family: Helvetica;
+    font-family: Inter Medium;
     font-weight: bold;
-    font-size: 30px;
-    text-align: center;
+    font-size: 24px;
+    text-align: left;
 }
 
 section.first h4 {
     position: absolute;
-    left: 0px;
-    right: 100px;
-    top: 620px;
-    color: white;
-    width: 95%;
-    font-family: Helvetica;
-    font-weight: bold;
+    left: 88px;
+    top: 590px;
+    color: black;
+    width: 97%;
+    font-family: Inter;
     font-size: 24px;
-    padding-right: 24px;
-    text-align: right;
-}
-
-img[alt~="center"] {
-    display: block;
-    margin: 0 auto;
+    text-align: left;
 }

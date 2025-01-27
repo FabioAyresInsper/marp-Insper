@@ -1,7 +1,6 @@
 --- 
 marp: true
-size: 4:3
-backgroundImage: url(../example/slide.jpg)
+size: 16:9
 theme: insper
 math: mathjax
 ---
